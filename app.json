@@ -1,0 +1,20 @@
+{
+  "name": "VORTEX-MD",
+  "description": "DEPLOY YOU BOT",
+  "logo": "https://files.catbox.moe/21bl4v.jpg",
+  "keywords": ["VORTEX-MD"],
+  "success_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put your vortex session-id here.",
+      "required": true,
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}
